@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 8</title>
+</head>
+<body>
+    <script>
+        let altp = Number(prompt("Diga a altura da parede em m: "));
+        let larp = Number(prompt("Diga a largura da parede em m: "));
+        let alta = Number(prompt("Diga a altura do azulejo em cm: "));
+        let larga = Number(prompt("Diga a largura do azulejo em cm: "));
+        let ap = (altp*larp);
+        let aa = (alta*larga);
+        let qtdsa = (ap/aa);
+        document.write(`Você irá precisar de ${qtdsa} azulejos para cobrir a parede`)
+    </script>
+</body>
+</html>

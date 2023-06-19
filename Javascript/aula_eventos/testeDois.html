@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function tornar_maiscula(){
+            var texto = document.getElementById("nome");
+            texto.value = texto.value.toUpperCase();
+        }
+
+        
+
+        function mudar_cor(obj){
+            obj.style.backgroundColor= "blue";
+            obj.style.width = "200px"
+        }
+
+        function mudar_cor2(obj){
+            obj.style.backgroundColor= "green";
+            
+        }
+
+    </script>
+    <form action="">
+        <input onchange="tornar_maiscula()" type="text" name="nome" id="nome"/>
+        <input onclick="boas_vindas()" type="button" name="botao" value="Click me"/>
+    </form>
+
+    <div onmouseover="mudar_cor(this)" onmouseout="mudar_cor2(this)" id="teste" style="background-color: darkgreen; width: 100px; height:100px;">
+    
+    </div>
+</body>
+</html>

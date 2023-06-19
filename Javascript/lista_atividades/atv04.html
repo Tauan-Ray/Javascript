@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 4</title>
+</head>
+<body>
+    <script>
+        let vi = Number(prompt("Qual o valor inicial do débito? "));
+        let qtdsm = Number(prompt("Qual a quantidade de meses que você atrasou o pagamento? "));
+        let jm = Number(prompt("Qual o valor dos juros mensais em %? "));
+        let juros = (vi*jm*qtdsm)/100;
+        document.write(`<h1> O valor da divida total é de R$${juros}`)
+
+    </script>
+</body>
+</html>

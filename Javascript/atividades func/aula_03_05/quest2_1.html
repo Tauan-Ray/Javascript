@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function dardesconto(v_produto, p_desconto){
+           return v_produto-(v_produto*(p_desconto/100))
+        }
+
+        let vp = Number(prompt("Diga o valor do produto: "));
+        let pd = Number(prompt("Diga o valor do desconto do produto: "));
+
+        alert(dardesconto(vp, pd))
+    </script>
+</body>
+</html>

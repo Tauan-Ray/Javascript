@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 8</title>
+</head>
+<body>
+    <script>
+        let v = prompt("Diga um valor de 1 até 999: ");
+        const sep = v.split('');
+        let u = parseInt(sep[2]/1);
+        let d = parseInt(sep[1]/1);
+        let c = parseInt(v/100);
+        document.write(`<h1>${c} centenas, ${d} dezenas e ${u} unidades</h1>`)
+        console.log(sep)
+    </script>
+</body>
+</html>

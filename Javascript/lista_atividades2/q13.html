@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let h = Number(prompt("Informe quantas horas você trabalhou nesse mês: "));
+        let sph = Number(prompt("Informe o seu salário por hora: "));
+
+        if (h > 40){
+            let hex = h-40;
+            let sal = sph * 40;
+            let sph1 = sph/2;
+            let salex = hex * sph1;
+            let salfinal = salex = sal;
+            alert("Você trabalhou por "+h+" horas seu salário é de "+ salfinal);
+        }
+        else{
+            let sal = h *sph;
+            alert("Você trabalhou por "+h+" horas seu salário é de "+ sal);
+        }
+    </script>
+</body>
+</html>

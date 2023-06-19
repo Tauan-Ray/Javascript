@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let h1 = Number(prompt("Diga a idade do primeiro homem: "));
+        let h2 = Number(prompt("Diga a idade do segundo homem: "));
+        let m1 = Number(prompt("Diga a idade da primeira mulher: "));
+        let m2 = Number(prompt("Diga a idade da segunda mulher: "));
+        let hv = Math.max(h1, h2);
+        let mv = Math.max(m1, m2);
+        let hn = Math.min(h1, h2);
+        let mn = Math.min(m1, m2);
+
+        let som = hv + mn;
+        let prod = hn * mv;
+        alert("A soma da idade do homem mais velho com a mulher mais nova é "+som);
+        alert("O produto da idade do homem mais novo com a mulher mais velha é"+prod);
+
+    </script>
+</body>
+</html>

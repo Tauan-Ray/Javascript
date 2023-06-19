@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = new Array();
+         
+        a[0] = prompt("Diga seu nome: ");
+        a[1] = Number(prompt("Qual sua idade? "));
+        a[2] = Number(prompt("Digite a média: "))
+        if (a[2] < 6){
+            a[3] = "reprovado"
+        }
+        else{
+            a[3] = "aprovado"
+        }
+
+        document.write(`Olá ${a[0]} você tem ${a[1]} anos, sua média é ${a[2]} e você foi ${a[3]}`)
+
+        
+    </script>
+</body>
+</html>

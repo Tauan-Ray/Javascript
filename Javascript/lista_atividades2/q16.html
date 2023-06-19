@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nome1 = prompt("Diga o nome do primeiro produto: ")
+        let preco1 = Number(prompt("Diga o preço do primeiro produto: "))
+        let nome2 = prompt("Diga o nome do segundo produto:")
+        let preco2 = Number(prompt("Diga o preço do segundo produto:"))
+        let nome3 = prompt("Diga o nome do terceiro produto: ")
+        let preco3 = Number(prompt("Diga o preço do terceiro produto:"))
+
+        if (preco1 < preco2 && preco1 < preco3){
+            alert("O produto com o menor preço é o 1, custando R$"+preco1);
+        }
+            
+        else if (preco2 < preco1 && preco2 < preco3){
+            alert("O produto com o menor preço é o 2, custando R$"+preco2);
+        }
+        else{
+            alert("O produto com o menor preço é o 3, custando R$"+preco3);
+        }
+            
+    </script>
+</body>
+</html>
